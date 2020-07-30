@@ -5,7 +5,7 @@ import { robots } from './robots'
 import SearchBox from './SearchBox'
 // import { render } from 'react-dom';
 
-
+//left off on vid 213
 
 
 class App extends Component {
