@@ -12,7 +12,7 @@ function Hello(){
         AETpChGt3eqSgLu/yCSakEKPrxU43fXFJJAKJmi/gfeETBf65pJJQsmaEgEkkCMNrRlnkmi3kkkgQJ4jzCFw0SSRCM8XhM
         B8N5SSUIJo9/wTt8fMpJKAfQ3npxKAm+p8ykkgQIa79eJSj6kpJIhCaPd81GRc6+ZSSUIM1unzKhDbJJIoDIan15oI0SSToVjZAkkkiQ//2Q==" alt = "Madinah"></img>
         <h1 class= "f1 tc">Hi i am your first component</h1>
-        <p>Welcome to React</p>
+        <p>{props.haq}</p>
     </div>
 
 )}

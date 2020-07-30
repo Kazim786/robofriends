@@ -12,7 +12,7 @@ ReactDOM.render(
   // </React.StrictMode>
   // <h1>Hello World</h1>
   <div><Hello />,
-  <Hello />
+  <Hello haq= 'Ya Ali (as)'/>
   </div>
   
   ,
