@@ -8,15 +8,26 @@ import Card from './Card.js'
 import 'tachyons' //similar to bootstrap
 
 
-ReactDOM.render(
-  // <React.StrictMode>
+// ReactDOM.render(
+//   // <React.StrictMode>
     
-  // </React.StrictMode>
-  // <h1>Hello World</h1>
-  // <div><Hello />,
-  // <Hello haq= 'Ya Ali (as)'/>
-  // </div>
-  <Card />
+//   // </React.StrictMode>
+//   // <h1>Hello World</h1>
+//   // <div><Hello />,
+//   // <Hello haq= 'Ya Ali (as)'/>
+//   // </div>
+//   <Card />
+//   ,
+//   document.getElementById('root')
+// );
+
+ReactDOM.render(
+  <div> 
+      <Card />
+      <Card />
+      <Card />
+  </div>
+  
   ,
   document.getElementById('root')
 );
