@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import Hello from './Hello.js';
 import Card from './Card.js'
-import App from './App';
+// import App from './App';
 // import * as serviceWorker from './serviceWorker';
 import 'tachyons' //similar to bootstrap
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Card />
-  </React.StrictMode>
+  // <React.StrictMode>
+    
+  // </React.StrictMode>
   // <h1>Hello World</h1>
   // <div><Hello />,
   // <Hello haq= 'Ya Ali (as)'/>
   // </div>
-  
+  <Card />
   ,
   document.getElementById('root')
 );
