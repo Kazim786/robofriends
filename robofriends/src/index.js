@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Hello from './Hello.js';
+import App from './App';
 // import * as serviceWorker from './serviceWorker';
 import 'tachyons' //similar to bootstrap
 
