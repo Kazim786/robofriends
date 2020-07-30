@@ -10,6 +10,7 @@ import { render } from 'react-dom';
 
 class App extends Component {
     constructor(){
+        super()
         this.state = {
             robots: robots,
             searchfield = ''
