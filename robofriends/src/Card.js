@@ -3,7 +3,7 @@ import React from 'react'
 const Card = () => {
     return (
         <div>
-            <img alt = "Robots" src= "" />
+            <img alt = "Robots" src= "https://robohash.org/test" />
                 <div>
                     <h2>Jane Doe</h2>
                     <p>Jane.doe@gmail.com</p>
