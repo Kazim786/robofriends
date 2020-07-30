@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component }from 'react';
 import CardList from './CardList'
 import './App.css';
 import { robots } from './robots'
 import SearchBox from './SearchBox'
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 
 
 
@@ -13,15 +13,26 @@ class App extends Component {
         super()
         this.state = {
             robots: robots,
-            searchfield = ''
+            searchfield: ''
         }
     }
+
+
+    onSearchChange = (event) => {
+        this.setState({searchfield: event.target.value})
+        //console.log(event.target.value) this will just give us the value of the targeted element (in this case input)
+    }
+
+
     render(){
+        const filteredRobots = this.state.robots.filter(robots => {
+            return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        })
         return(
             <div className = "tc">
             <h1>RoboFriends</h1>
-            <SearchBox />
-            <CardList robots = {robots} />
+            <SearchBox searchchange = {this.onSearchChange} />
+            <CardList robots = {filteredRobots} />
             </div>
             )
         }

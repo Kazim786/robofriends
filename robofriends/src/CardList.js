@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card.js'
-import { robots } from './robots'
+// import { robots } from './robots'
 
 //Made this component so we wouldnt 
 //have to manually write out the cards like we were doing before
